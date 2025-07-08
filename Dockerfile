@@ -17,4 +17,4 @@ ENV PYTHONPATH=/app
 ENV HUGGINGFACEHUB_API_TOKEN=${HUGGINGFACEHUB_API_TOKEN}
 
 
-CMD ["uvicorn", "lexi.sg-rag-backend-test.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "lexi_backend_test.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
