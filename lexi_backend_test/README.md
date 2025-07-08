@@ -21,5 +21,5 @@ Retrieval-Augmented Generation (RAG) system for legal queries with citation supp
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/lexi.sg-rag-backend-test.git
-cd lexi.sg-rag-backend-test
+git clone https://github.com/yourusername/lexi_backend_test.git
+cd lexi_backend_test

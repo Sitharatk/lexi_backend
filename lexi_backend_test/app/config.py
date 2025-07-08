@@ -13,4 +13,4 @@ class Settings(BaseSettings):
         env_file = ".env"
 
 settings = Settings()
-configure_http_backend(backend="aiohttp", cache_dir=".cache/hf")    
+configure_http_backend(cache_dir=".cache/hf")

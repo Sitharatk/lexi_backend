@@ -5,7 +5,7 @@ from app.services.document_loader import initialize_documents
 import os
 
 app = FastAPI(
-    title="Lexi.sg RAG Backend",
+    title="Lexi RAG Backend",
     description="Retrieval-Augmented Generation for Legal Queries",
     version="1.0.0"
 )
