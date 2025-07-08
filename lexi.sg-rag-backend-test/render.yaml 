@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: lexi-rag-service
+    runtime: docker
+    env: python
+    build:
+      dockerfile: Dockerfile
+    envVars:
+      - key: HUGGINGFACEHUB_API_TOKEN
+        valueFromGroup: rag_secrets
+    resources:
+      memory: 2GB
+      cpu: 1
